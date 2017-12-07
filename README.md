@@ -6,5 +6,6 @@ Data sources:
 * Amazon ad campaign data 
 * Advertiser brand size
 * Product prices on [amazon](http:/www.amazon.com)
-* Product rating on [amazon](amazon.com)
+* Product rating on [amazon](http:/www.amazon.com)
 * Product number of customer reviews
+* new line
