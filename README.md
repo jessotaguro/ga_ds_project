@@ -3,8 +3,8 @@
 (Description of project)
 
 Data sources:
-* Amazon ad data 
+* Amazon ad campaign data 
 * Advertiser brand size
-* Product prices on amazon.com
-* Product rating on amazon.com
+* Product prices on [amazon](amazon.com)
+* Product rating on [amazon](amazon.com)
 * Product number of customer reviews
