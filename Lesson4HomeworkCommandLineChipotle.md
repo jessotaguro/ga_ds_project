@@ -21,15 +21,18 @@ Chicken<br>
 `grep "chicken burrito" -i chipotle.tsv | wc -l`<br>
 <br>
 **5. Do chicken burritos more often have black beans or pinto beans?**<br>
-Black beans
+Black beans<br>
 `grep "chicken burrito" -i chipotle.tsv | grep "black beans" -i | wc -l`<br>
 `grep "chicken burrito" -i chipotle.tsv | grep "pinto beans" -i | wc -l`<br>
 <br>
-6. Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-08). repo 
+**6. Make a list of all of the CSV or TSV files in the [our class repo] (https://github.com/ga-students/DS-SEA-08). repo 
 (using a single command). You will be working on your local repo on your laptop. Think about how wildcard characters 
-can help you with this task.
-
-7. Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of 
-[our class repo] (https://github.com/ga-students/DS-SEA-8).
-
+can help you with this task.**<br>
+`find . -name '*csv'`<br>
+<br>
+**7. Count the approximate number of occurrences of the word "dictionary" (regardless of case) across all files of 
+[our class repo] (https://github.com/ga-students/DS-SEA-8).**<br>
+ 57?<br>
+ `grep -r dictionary .. | wc -l`<br>
+<br>
 Optional: Use the the command line to discover something "interesting" about the Chipotle data. Try using the commands from the "advanced" section!
