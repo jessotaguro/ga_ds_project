@@ -8,7 +8,7 @@ asindetails = pd.DataFrame(columns=['asin','price'])
 driver = webdriver.Chrome()
 driver.implicitly_wait(10)
 for index, row in asins.iterrows():
-    if index >= 3043 and index <= 5000:
+    if index >= 4204 and index <= 5000:
         global asindetails
         global asinsfailed
         baseurl = 'https://www.amazon.com/exec/obidos/ASIN/'
@@ -28,5 +28,5 @@ for index, row in asins.iterrows():
             #'category': [driver.find_element_by_xpath("//*[@id='wayfinding-breadcrumbs_feature_div']/ul/li[1]/span/a").text]
             })
         asindetails = asindetails.append(temp)
-        asindetails.to_csv("asinprice_2745.csv")
+        asindetails.to_csv("asinprice_4204.csv")
 print "Job Complete"
