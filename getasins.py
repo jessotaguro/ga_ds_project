@@ -10,11 +10,9 @@ from sqlalchemy import update
 import datetime 
 now = datetime.datetime.now()
 
-data = pd.read_csv('data.csv')
-print data.shape
+campaigns = pd.read_csv('GA_NA2017.csv')
+print campaigns.ad_campaign_id.nunique()
 
-print data.isnull().sum()
-
-#driver = webdriver.Chrome()
-#driver.implicitly_wait(30)
-#driver.get("https://wanamaker.amazon.com")
+#campaigns = pd.read_csv('GA_NA2017.csv')
+#print campaigns.shape
+#print campaigns.ad_campaign_id.nunique()
